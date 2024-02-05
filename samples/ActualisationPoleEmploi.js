@@ -1,5 +1,5 @@
 import puppeteer from 'puppeteer';
-import {readVariableFile} from './init.mjs';
+import {readVariableFile} from '../init.mjs';
 
 const remoteBrowserlessToken = await readVariableFile("UnversionedToken.txt");
 const remoteBrowserlessHost = await readVariableFile("UnversionedRemoteBrowserlessHost.txt");
@@ -10,8 +10,8 @@ console.log("Host: " + remoteBrowserlessHost);
 const keepBrowserOpen = true;
 
 (async () => {
-    //const browser = await puppeteer.launch({headless: false});
-    const browser = await puppeteer.connect({browserWSEndpoint: 'ws://'+remoteBrowserlessHost+':3000?token=' +remoteBrowserlessToken});
+    const browser = await puppeteer.launch({headless: false});
+    //const browser = await puppeteer.connect({browserWSEndpoint: 'ws://'+remoteBrowserlessHost+':3000?token=' +remoteBrowserlessToken});
 
     console.log("\n\nConnected to browser. Starting to scrap...\n\n");
 

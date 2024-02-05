@@ -1,21 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="42c59eec-09c1-4013-a262-1959a04859a5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Puppeteer4browserless4n8n.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/init.mjs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/samples.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/samples/BasicScraping.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/samples/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sandbox-scraping.mjs" afterDir="false" />
+    <list default="true" id="42c59eec-09c1-4013-a262-1959a04859a5" name="Changes" comment="Commit base">
+      <change afterPath="$PROJECT_DIR$/samples/ActualisationPoleEmploi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/samples/CRA-Generation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/init.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/init.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sandbox-scraping.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/sandbox-scraping.mjs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,15 +41,23 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "dart.analysis.tool.window.visible": "false",
-    "last_opened_file_path": "C:/Users/rayan/Documents/Repositories/Git/Puppeteer4browserless4n8n/sandbox-scraping.mjs",
+    "last_opened_file_path": "C:/Users/rayan/Documents/Repositories/Git/Puppeteer4browserless4n8n/samples/ActualisationPoleEmploi.js",
     "nodejs_package_manager_path": "npm",
-    "show.migrate.to.gradle.popup": "false"
+    "show.migrate.to.gradle.popup": "false",
+    "ts.external.directory.path": "D:\\Applications\\IntelliJ IDEA 2022.1\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Node.js.ActualisationPoleEmploi.js">
+    <configuration name="ActualisationPoleEmploi.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="samples/ActualisationPoleEmploi.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
     <configuration name="sandbox-scraping.mjs" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="sandbox-scraping.mjs" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Node.js.sandbox-scraping.mjs" />
+      <item itemvalue="Node.js.ActualisationPoleEmploi.js" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -67,8 +68,16 @@
       <option name="presentableId" value="Default" />
       <updated>1707085938690</updated>
       <workItem from="1707085941124" duration="192000" />
-      <workItem from="1707086316347" duration="4742000" />
+      <workItem from="1707086316347" duration="29612000" />
     </task>
+    <task id="LOCAL-00001" summary="Commit base">
+      <created>1707091178754</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1707091178754</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -84,5 +93,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Commit base" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit base" />
   </component>
 </project>
