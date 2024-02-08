@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="42c59eec-09c1-4013-a262-1959a04859a5" name="Changes" comment="Add PoleEmploi actualisation scraping">
+    <list default="true" id="42c59eec-09c1-4013-a262-1959a04859a5" name="Changes" comment="Add scraping to get specific HTML of next Vitality matches (Rocket League)">
       <change afterPath="$PROJECT_DIR$/samples/CRA-Generation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/samples/ScrapingNewMatchesVitalityRocketLeague.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/samples/groupon/GrouponActivityDetailsScrapping.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/samples/groupon/GrouponActivityListExtractScraping.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sandbox-scraping.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/sandbox-scraping.mjs" afterDir="false" />
     </list>
@@ -65,7 +66,7 @@
       <option name="presentableId" value="Default" />
       <updated>1707085938690</updated>
       <workItem from="1707085941124" duration="192000" />
-      <workItem from="1707086316347" duration="37287000" />
+      <workItem from="1707086316347" duration="56471000" />
     </task>
     <task id="LOCAL-00001" summary="Commit base">
       <created>1707091178754</created>
@@ -81,7 +82,14 @@
       <option name="project" value="LOCAL" />
       <updated>1707161955333</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Add scraping to get specific HTML of next Vitality matches (Rocket League)">
+      <created>1707181440864</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1707181440864</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -101,6 +109,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Commit base" />
     <MESSAGE value="Add PoleEmploi actualisation scraping" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add PoleEmploi actualisation scraping" />
+    <MESSAGE value="Add scraping to get specific HTML of next Vitality matches (Rocket League)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add scraping to get specific HTML of next Vitality matches (Rocket League)" />
   </component>
 </project>
