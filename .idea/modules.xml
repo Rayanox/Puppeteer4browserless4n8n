@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Puppeteer4browserless4n8n.iml" filepath="$PROJECT_DIR$/Puppeteer4browserless4n8n.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cookbooks.iml" filepath="$PROJECT_DIR$/cookbooks.iml" />
       <module fileurl="file://$PROJECT_DIR$/samples.iml" filepath="$PROJECT_DIR$/samples.iml" />
     </modules>
   </component>

@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="42c59eec-09c1-4013-a262-1959a04859a5" name="Changes" comment="Add scraping to get specific HTML of next Vitality matches (Rocket League)">
-      <change afterPath="$PROJECT_DIR$/samples/CRA-Generation.js" afterDir="false" />
+    <list default="true" id="42c59eec-09c1-4013-a262-1959a04859a5" name="Changes" comment="Add scraping to get Groupon activities">
+      <change afterPath="$PROJECT_DIR$/cookbooks.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/CloseRejectConsentBox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookbooks/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/samples/Template.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/samples/facturation/CRA-Generation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/samples/facturation/Facture-Generation.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/samples/groupon/GrouponActivityDetailsScrapping.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/samples/groupon/GrouponActivityListExtractScraping.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sandbox-scraping.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/sandbox-scraping.mjs" afterDir="false" />
     </list>
@@ -39,14 +44,25 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "dart.analysis.tool.window.visible": "false",
-    "last_opened_file_path": "C:/Users/rayan/Documents/Repositories/Git/Puppeteer4browserless4n8n/samples/ActualisationPoleEmploi.js",
+    "last_opened_file_path": "C:/Users/rayan/Documents/Repositories/Git/Puppeteer4browserless4n8n/samples/facturation/CRA-Generation.js",
     "nodejs_package_manager_path": "npm",
     "show.migrate.to.gradle.popup": "false",
     "ts.external.directory.path": "D:\\Applications\\IntelliJ IDEA 2022.1\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external"
   }
 }]]></component>
-  <component name="RunManager" selected="Node.js.sandbox-scraping.mjs">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\rayan\Documents\Repositories\Git\Puppeteer4browserless4n8n\samples\facturation" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Node.js.CRA-Generation.js">
     <configuration name="ActualisationPoleEmploi.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="samples/ActualisationPoleEmploi.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="CRA-Generation.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="samples/facturation/CRA-Generation.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="Facture-Generation.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="samples/facturation/Facture-Generation.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <configuration name="sandbox-scraping.mjs" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="sandbox-scraping.mjs" working-dir="$PROJECT_DIR$">
@@ -54,6 +70,8 @@
     </configuration>
     <list>
       <item itemvalue="Node.js.sandbox-scraping.mjs" />
+      <item itemvalue="Node.js.Facture-Generation.js" />
+      <item itemvalue="Node.js.CRA-Generation.js" />
       <item itemvalue="Node.js.ActualisationPoleEmploi.js" />
     </list>
   </component>
@@ -66,7 +84,7 @@
       <option name="presentableId" value="Default" />
       <updated>1707085938690</updated>
       <workItem from="1707085941124" duration="192000" />
-      <workItem from="1707086316347" duration="56471000" />
+      <workItem from="1707086316347" duration="70648000" />
     </task>
     <task id="LOCAL-00001" summary="Commit base">
       <created>1707091178754</created>
@@ -89,7 +107,14 @@
       <option name="project" value="LOCAL" />
       <updated>1707181440864</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Add scraping to get Groupon activities">
+      <created>1707379382526</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1707379382526</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -110,6 +135,7 @@
     <MESSAGE value="Commit base" />
     <MESSAGE value="Add PoleEmploi actualisation scraping" />
     <MESSAGE value="Add scraping to get specific HTML of next Vitality matches (Rocket League)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add scraping to get specific HTML of next Vitality matches (Rocket League)" />
+    <MESSAGE value="Add scraping to get Groupon activities" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add scraping to get Groupon activities" />
   </component>
 </project>
