@@ -23,7 +23,7 @@ const keepBrowserOpen = true;
     //
     /* ---------------------------------------------------- */
 
-    let PROBABLY_BROKEN_SCRAPPING_NUM_ITERATION_PAGE = 30;
+    let PROBABLY_BROKEN_SCRAPPING_NUM_ITERATION_PAGE = 15;
 
     async function extractDataFromPage(page, itemsResult) {
         await page.waitForSelector('#pull-deal-feed > figure', { timeout: 10000 });
@@ -86,17 +86,23 @@ const keepBrowserOpen = true;
                 console.log("Page scraped = " + numPage++)
                 repeatTime = 0
 
+                /*
                 if(numPage === 15) {
                     await page.screenshot({path: 'screenshot-test-R.png'})
                     console.log("Screenshot taken")
-                }
+                }*/
 
-                if(numPage === PROBABLY_BROKEN_SCRAPPING_NUM_ITERATION_PAGE) {
-                    throw new Error("Probably broken scrapping")
+                if(numPage >= PROBABLY_BROKEN_SCRAPPING_NUM_ITERATION_PAGE) {
+                    console.log("Throwing exception because limit iterations is reached. Limit =  " + PROBABLY_BROKEN_SCRAPPING_NUM_ITERATION_PAGE)
+                    var exceptionText = "Probably broken scrapping"
                 }
             } catch (e) {
                 console.log("Error on Groupon site.")
                 repeatTime++
+            }
+
+            if(exceptionText) {
+                throw new Error(exceptionText)
             }
 
             if (repeatTime > 3) {

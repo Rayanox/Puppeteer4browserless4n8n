@@ -1,5 +1,5 @@
 import puppeteer from 'puppeteer';
-import {readVariableFile} from './init.mjs';
+import {readVariableFile} from '../init.mjs';
 
 const remoteBrowserlessToken = await readVariableFile("UnversionedToken.txt");
 const remoteBrowserlessHost = await readVariableFile("UnversionedRemoteBrowserlessHost.txt");
@@ -48,7 +48,7 @@ const keepBrowserOpen = true;
         data.result.push(innerHTML)
     }
 
-    //console.log(JSON.stringify(data))
+    console.log("Fin, résultat:\n\n" + JSON.stringify(data, null, 2))
 
 
 
